@@ -8,7 +8,8 @@ let b = 23
 let c = 19
 
 let Discriminant = sqrt((Double)(b*b)+(Double)(4*a*c))
-    if Discriminant == 0 {let Radical = ((Double)(b)(Double)(-1))/((Double)(2)(Double)(a))
+    if Discriminant == 0 {
+        let Radical = ((Double)(b)(Double)(-1))/((Double)(2)(Double)(a))
 //    не пойму в чем дело / пишет cannot call value of non-function type Double. буду искать решение после сдачи ДЗ
         
 print("У уравнения (Equation) один корень и он равен (Radical)")
