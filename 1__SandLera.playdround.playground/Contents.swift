@@ -34,15 +34,18 @@ print("Площадь треугольника = area, периметр треу
 //3 задание
 typealias ruble = Double
 typealias percent = Double
+
 var amountOfDeposit : Ruble = 2100.0
 var meterYears = 1
+
 let annualPercentage : Percent = 5.0
-while meterYears <= 5 {
+    while meterYears <= 5 {
+        
 let onePercent = amountOfDeposit / 100.0
 let annualIncome = onePercent * annualPercentage
-amountOfDeposit = amountOfDeposit + annualIncome
-meterYears += 1
+        amountOfDeposit = amountOfDeposit + annualIncome
+        meterYears += 1
 }
-print("Сумма вклада через 5 лет равна amountOfDeposit")
+            print("Сумма вклада через 5 лет равна amountOfDeposit")
 
 
